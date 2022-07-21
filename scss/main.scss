@@ -28,6 +28,7 @@ h2,
 h3,
 h4 {
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 img {
@@ -79,7 +80,7 @@ img {
 
     // Header Home
     &-home {
-        background: $bg-image no-repeat center right/cover;
+        background-color: rgb(10, 25, 47);
         height: 100vh;
         color: #fff;
 
@@ -99,7 +100,7 @@ img {
 
     // Header Inner
     &-inner {
-        background: $bg-image no-repeat 20% 30% / cover;
+        background: rgb(10, 25, 47);
         height: 5.5rem;
         border-bottom: 3px solid $main-color
     }
