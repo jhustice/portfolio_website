@@ -72,6 +72,13 @@ img {
         &.current {
             border-color: $main-color
         }
+
+    }
+
+    h1 {
+        a {
+            border-bottom: none;
+        }
     }
 }
 
